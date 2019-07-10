@@ -6,6 +6,8 @@
 //通过归并排序来得到右侧比当前左侧选中的数小的个数，迭代来获得最终结果
 //ivan_allen原创 https://leetcode-cn.com/u/ivan_allen
 
+//https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-ji-suan-you-ce-xiao-yu-dang-qian-yuan-su-de-ge/
+
 class Solution {
 public:
     using pii = pair<int, int>; //别名 <number, index>
