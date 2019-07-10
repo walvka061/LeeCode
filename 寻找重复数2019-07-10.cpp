@@ -5,6 +5,9 @@
 //时间复杂度O(n),空间复杂度O(1)
 //通过寻找环来确定相同值的位置
 //先找到环的入口，再让一个下标在环中循环，另一个下标进入环即可
+
+//https://leetcode-cn.com/problems/find-the-duplicate-number/description/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china
+
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
