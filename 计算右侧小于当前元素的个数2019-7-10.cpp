@@ -4,6 +4,7 @@
 
 //时间复杂度O(nlogn),空间复杂度O(n),因为要分配一块与匹配对象相符长度的空间
 //通过归并排序来得到右侧比当前左侧选中的数小的个数，迭代来获得最终结果
+//ivan_allen原创 https://leetcode-cn.com/u/ivan_allen
 
 class Solution {
 public:
