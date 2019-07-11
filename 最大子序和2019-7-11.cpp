@@ -7,7 +7,9 @@
 //这就是动态规划么。。。
 
 //https://leetcode-cn.com/problems/maximum-subarray/
-
+/*
+dp[i] = max(dp[i-1]+nums[i], nums[i])
+*/
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
