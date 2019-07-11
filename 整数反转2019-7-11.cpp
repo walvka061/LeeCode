@@ -23,7 +23,7 @@ public:
     }
 };
 
-
+//感觉还是c版本比较优雅。。。
 //coxue原创https://leetcode-cn.com/problems/two-sum/solution/cyu-yan-ti-jie-zheng-shu-fan-zhuan-by-coxue/
 int reverse(int x)
 {
